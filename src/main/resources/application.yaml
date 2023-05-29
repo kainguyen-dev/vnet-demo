@@ -26,7 +26,9 @@ platform:
             topic: SALE_REPORT_BY_STORE
             group-key: StoreName
             sum-field: SalesUnits, SalesRevenue
+            log: false
         aggragate-by-product:
             topic: SALE_REPORT_BY_PRODUCT
             group-key: ProductName
             sum-field: SalesUnits, SalesRevenue
+            log: false

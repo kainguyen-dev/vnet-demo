@@ -2,6 +2,7 @@ package com.platform.vnetdemo.producer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.platform.vnetdemo.properties.PlatformProperties;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.springframework.stereotype.Component;
@@ -19,6 +20,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Component
+@Slf4j
 public class SaleDataProducer {
 
     private final ScheduledExecutorService executor;
@@ -33,7 +35,7 @@ public class SaleDataProducer {
         this.properties = properties;
         this.fileIndex = new AtomicInteger();
 
-        // this.execute();
+        this.execute();
     }
 
     public List<String> readData() {
@@ -57,8 +59,6 @@ public class SaleDataProducer {
                         json.put(headers.get(i), data[i]);
                     }
                     String jsonString = objectMapper.valueToTree(json).toString();
-
-                    System.out.println(jsonString);
                     result.add(jsonString);
                 }
 
@@ -80,7 +80,7 @@ public class SaleDataProducer {
             );
             kafkaProducer.send(message);
         });
-        System.out.println("Complete send data total [" + data.size() + "] items");
+        log.info("Complete send data total [" + data.size() + "] items");
     }
 
     public void execute() {

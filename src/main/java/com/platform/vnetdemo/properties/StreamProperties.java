@@ -8,5 +8,6 @@ public class StreamProperties {
     String topic;
     String groupKey;
     String[] sumField;
+    Boolean log;
 
 }
