@@ -1,0 +1,639 @@
+"SalesDate"|"StoreName"|"ProductName"|"SalesUnits"|"SalesRevenue"
+20221003|Store2|Apple iPad 9|1|523.2500
+20221005|Store2|Apple iPad 9|1|523.2500
+20221007|Store2|Apple iPad 9|1|523.2500
+20221008|Store2|Apple iPad 9|1|523.2500
+20221012|Store2|Apple iPad 9|1|523.2500
+20221020|Store2|Apple iPad 9|1|523.2500
+20221001|Store3|Apple iPad 9|2|1046.5000
+20221002|Store3|Apple iPad 9|1|523.2500
+20221025|Store3|Apple iPad 9|1|523.2500
+20221005|Store6|Apple iPad 9|2|1046.5000
+20221006|Store6|Apple iPad 9|1|523.2500
+20221007|Store6|Apple iPad 9|2|1046.5000
+20221012|Store6|Apple iPad 9|1|523.2500
+20221018|Store6|Apple iPad 9|1|523.2500
+20221001|Store7|Apple iPad 9|2|1046.5000
+20221002|Store7|Apple iPad 9|1|523.2500
+20221004|Store7|Apple iPad 9|1|523.2500
+20221006|Store7|Apple iPad 9|2|1046.5000
+20221007|Store7|Apple iPad 9|2|1046.5000
+20221008|Store7|Apple iPad 9|1|523.2500
+20221009|Store7|Apple iPad 9|3|1569.7500
+20221010|Store7|Apple iPad 9|2|1046.5000
+20221014|Store5|Apple iPad 9|1|523.2500
+20221023|Store5|Apple iPad 9|1|523.2500
+20221029|Store5|Apple iPad 9|1|562.9363
+20221005|Store4|Apple iPad 9|1|523.2500
+20221005|Store1|Apple iPad 9|1|523.2500
+20221006|Store1|Apple iPad 9|1|523.2500
+20221007|Store1|Apple iPad 9|2|1046.5000
+20221008|Store1|Apple iPad 9|1|523.2500
+20221010|Store1|Apple iPad 9|1|523.2500
+20221011|Store1|Apple iPad 9|1|523.2500
+20221014|Store1|Apple iPad 9|1|523.2500
+20221018|Store1|Apple iPad 9|1|523.2500
+20221020|Store1|Apple iPad 9|1|523.2500
+20221027|Store1|Apple iPad 9|1|523.2500
+20221028|Store1|Apple iPad 9|1|562.9363
+20221029|Store1|Apple iPad 9|1|562.9363
+20221002|Store4|Apple iPad 9|4|2093.0000
+20221003|Store4|Apple iPad 9|2|1046.5000
+20221011|Store4|Apple iPad 9|2|1046.5000
+20221012|Store4|Apple iPad 9|4|2093.0000
+20221013|Store4|Apple iPad 9|1|523.2500
+20221014|Store4|Apple iPad 9|1|523.2500
+20221015|Store4|Apple iPad 9|3|1569.7500
+20221016|Store4|Apple iPad 9|3|1569.7500
+20221017|Store4|Apple iPad 9|1|523.2500
+20221018|Store4|Apple iPad 9|1|523.2500
+20221019|Store4|Apple iPad 9|1|523.2500
+20221020|Store4|Apple iPad 9|1|523.2500
+20221021|Store4|Apple iPad 9|4|2093.0000
+20221023|Store4|Apple iPad 9|1|523.2500
+20221024|Store4|Apple iPad 9|4|2093.0000
+20221025|Store4|Apple iPad 9|2|1046.5000
+20221027|Store4|Apple iPad 9|5|2676.5957
+20221028|Store4|Apple iPad 9|2|1075.9674
+20221030|Store4|Apple iPad 9|1|541.4946
+20221001|Store3|Apple iPad 9|5|2616.2500
+20221002|Store3|Apple iPad 9|4|2093.0000
+20221003|Store3|Apple iPad 9|1|523.2500
+20221005|Store3|Apple iPad 9|4|2093.0000
+20221006|Store3|Apple iPad 9|4|2093.0000
+20221007|Store3|Apple iPad 9|3|1569.7500
+20221008|Store3|Apple iPad 9|2|1046.5000
+20221012|Store3|Apple iPad 9|3|1569.7500
+20221013|Store3|Apple iPad 9|2|1046.5000
+20221015|Store3|Apple iPad 9|3|1569.7500
+20221016|Store3|Apple iPad 9|2|1046.5000
+20221019|Store3|Apple iPad 9|1|523.2500
+20221021|Store3|Apple iPad 9|1|523.2500
+20221023|Store3|Apple iPad 9|3|1569.7500
+20221024|Store3|Apple iPad 9|1|523.2500
+20221025|Store3|Apple iPad 9|2|1046.5000
+20221026|Store3|Apple iPad 9|2|1048.2481
+20221027|Store3|Apple iPad 9|3|1597.1651
+20221028|Store3|Apple iPad 9|1|537.3574
+20221029|Store3|Apple iPad 9|2|1082.9893
+20221005|Store7|Apple iPad 9|2|1046.5000
+20221012|Store7|Apple iPad 9|2|1046.5000
+20221013|Store7|Apple iPad 9|1|523.2500
+20221015|Store7|Apple iPad 9|2|1046.5000
+20221019|Store7|Apple iPad 9|1|523.2500
+20221020|Store7|Apple iPad 9|1|523.2500
+20221021|Store7|Apple iPad 9|1|523.2500
+20221022|Store7|Apple iPad 9|3|1569.7500
+20221023|Store7|Apple iPad 9|6|3139.5000
+20221024|Store7|Apple iPad 9|4|2093.0000
+20221025|Store7|Apple iPad 9|3|1569.7500
+20221027|Store7|Apple iPad 9|9|4818.1356
+20221030|Store7|Apple iPad 9|1|541.4946
+20221031|Store7|Apple iPad 9|2|1088.4699
+20221001|Store2|Apple iPad 9|4|2093.0000
+20221002|Store2|Apple iPad 9|3|1569.7500
+20221003|Store2|Apple iPad 9|2|1046.5000
+20221004|Store2|Apple iPad 9|4|2093.0000
+20221005|Store2|Apple iPad 9|7|3662.7500
+20221006|Store2|Apple iPad 9|4|2093.0000
+20221007|Store2|Apple iPad 9|2|1046.5000
+20221008|Store2|Apple iPad 9|1|523.2500
+20221009|Store2|Apple iPad 9|1|523.2500
+20221010|Store2|Apple iPad 9|1|523.2500
+20221011|Store2|Apple iPad 9|2|1046.5000
+20221012|Store2|Apple iPad 9|1|523.2500
+20221013|Store2|Apple iPad 9|2|1046.5000
+20221014|Store2|Apple iPad 9|1|523.2500
+20221017|Store2|Apple iPad 9|1|523.2500
+20221018|Store2|Apple iPad 9|1|523.2500
+20221020|Store2|Apple iPad 9|3|1569.7500
+20221021|Store2|Apple iPad 9|1|523.2500
+20221022|Store2|Apple iPad 9|6|3139.5000
+20221023|Store2|Apple iPad 9|3|1569.7500
+20221024|Store2|Apple iPad 9|3|1569.7500
+20221025|Store2|Apple iPad 9|0|0.0000
+20221026|Store2|Apple iPad 9|1|523.2500
+20221027|Store2|Apple iPad 9|1|524.9981
+20221029|Store2|Apple iPad 9|1|541.4946
+20221001|Store5|Apple iPad 9|1|523.2500
+20221002|Store5|Apple iPad 9|3|1569.7500
+20221004|Store5|Apple iPad 9|4|2093.0000
+20221005|Store5|Apple iPad 9|2|1046.5000
+20221006|Store5|Apple iPad 9|4|2093.0000
+20221007|Store5|Apple iPad 9|1|523.2500
+20221009|Store5|Apple iPad 9|1|523.2500
+20221011|Store5|Apple iPad 9|1|523.2500
+20221012|Store5|Apple iPad 9|1|523.2500
+20221013|Store5|Apple iPad 9|2|1046.5000
+20221014|Store5|Apple iPad 9|2|1046.5000
+20221017|Store5|Apple iPad 9|2|1046.5000
+20221019|Store5|Apple iPad 9|1|523.2500
+20221021|Store5|Apple iPad 9|1|523.2500
+20221023|Store5|Apple iPad 9|4|2093.0000
+20221024|Store5|Apple iPad 9|5|2616.2500
+20221025|Store5|Apple iPad 9|3|1569.7500
+20221026|Store5|Apple iPad 9|1|524.9981
+20221027|Store5|Apple iPad 9|3|1609.5244
+20221001|Store4|Apple iPad 9|4|2093.0000
+20221001|Store6|Apple iPad 9|6|3139.5000
+20221002|Store6|Apple iPad 9|2|1046.5000
+20221003|Store6|Apple iPad 9|3|1569.7500
+20221004|Store6|Apple iPad 9|2|1046.5000
+20221005|Store6|Apple iPad 9|8|4186.0000
+20221006|Store6|Apple iPad 9|3|1569.7500
+20221007|Store6|Apple iPad 9|1|523.2500
+20221009|Store6|Apple iPad 9|1|523.2500
+20221012|Store6|Apple iPad 9|1|523.2500
+20221013|Store6|Apple iPad 9|3|1569.7500
+20221015|Store6|Apple iPad 9|2|1046.5000
+20221016|Store6|Apple iPad 9|1|523.2500
+20221019|Store6|Apple iPad 9|1|523.2500
+20221020|Store6|Apple iPad 9|1|523.2500
+20221021|Store6|Apple iPad 9|1|523.2500
+20221024|Store6|Apple iPad 9|4|2093.0000
+20221026|Store6|Apple iPad 9|5|2621.4943
+20221027|Store6|Apple iPad 9|3|1609.5244
+20221029|Store6|Apple iPad 9|2|1082.9892
+20221001|Store1|Apple iPad 9|7|3662.7500
+20221002|Store1|Apple iPad 9|4|2093.0000
+20221003|Store1|Apple iPad 9|9|4709.2500
+20221004|Store1|Apple iPad 9|2|1046.5000
+20221005|Store1|Apple iPad 9|2|1046.5000
+20221006|Store1|Apple iPad 9|5|2616.2500
+20221007|Store1|Apple iPad 9|2|1046.5000
+20221008|Store1|Apple iPad 9|1|523.2500
+20221009|Store1|Apple iPad 9|1|523.2500
+20221012|Store1|Apple iPad 9|1|523.2500
+20221013|Store1|Apple iPad 9|1|523.2500
+20221014|Store1|Apple iPad 9|2|1046.5000
+20221016|Store1|Apple iPad 9|2|1046.5000
+20221017|Store1|Apple iPad 9|-1|-523.2500
+20221018|Store1|Apple iPad 9|2|1046.5000
+20221019|Store1|Apple iPad 9|1|523.2500
+20221020|Store1|Apple iPad 9|2|1046.5000
+20221021|Store1|Apple iPad 9|2|1046.5000
+20221022|Store1|Apple iPad 9|3|1569.7500
+20221023|Store1|Apple iPad 9|3|1569.7500
+20221024|Store1|Apple iPad 9|5|2616.2500
+20221025|Store1|Apple iPad 9|4|2093.0000
+20221026|Store1|Apple iPad 9|2|1049.9962
+20221027|Store1|Apple iPad 9|2|1074.7148
+20221028|Store1|Apple iPad 9|3|1624.4839
+20221029|Store1|Apple iPad 9|1|541.4946
+20221031|Store1|Apple iPad 9|1|545.2626
+20221009|Store7|Apple iPad 9|1|737.1500
+20221015|Store7|Apple iPad 9|1|737.1500
+20221018|Store7|Apple iPad 9|1|737.1500
+20221027|Store7|Apple iPad 9|1|754.7388
+20221004|Store2|Apple iPad 9|1|737.1500
+20221010|Store2|Apple iPad 9|1|737.1500
+20221019|Store2|Apple iPad 9|1|737.1500
+20221020|Store2|Apple iPad 9|1|737.1500
+20221028|Store2|Apple iPad 9|1|757.9762
+20221030|Store2|Apple iPad 9|2|1522.0581
+20221001|Store5|Apple iPad 9|2|1474.3000
+20221004|Store5|Apple iPad 9|1|737.1500
+20221008|Store5|Apple iPad 9|1|737.1500
+20221011|Store5|Apple iPad 9|1|737.1500
+20221015|Store5|Apple iPad 9|1|737.1500
+20221021|Store5|Apple iPad 9|1|737.1500
+20221022|Store5|Apple iPad 9|1|737.1500
+20221024|Store5|Apple iPad 9|1|737.1500
+20221026|Store5|Apple iPad 9|2|1476.5301
+20221009|Store4|Apple iPad 9|1|737.1500
+20221013|Store4|Apple iPad 9|1|737.1500
+20221022|Store4|Apple iPad 9|1|737.1500
+20221024|Store4|Apple iPad 9|1|737.1500
+20221031|Store4|Apple iPad 9|2|1537.2766
+20221003|Store1|Apple iPad 9|1|737.1500
+20221005|Store1|Apple iPad 9|1|737.1500
+20221011|Store1|Apple iPad 9|1|737.1500
+20221014|Store1|Apple iPad 9|1|737.1500
+20221027|Store1|Apple iPad 9|1|745.6410
+20221010|Store3|Apple iPad 9|1|737.1500
+20221024|Store3|Apple iPad 9|2|1474.3000
+20221027|Store3|Apple iPad 9|1|741.5350
+20221001|Store6|Apple iPad 9|1|737.1500
+20221013|Store6|Apple iPad 9|1|737.1500
+20221022|Store6|Apple iPad 9|1|737.1500
+20221024|Store6|Apple iPad 9|1|737.1500
+20221027|Store6|Apple iPad 9|1|741.5350
+20221025|Store2|Apple iPad 9|2|1451.3000
+20221030|Store2|Apple iPad 9|1|725.6500
+20221019|Store4|Apple iPad 9|1|725.6500
+20221020|Store4|Apple iPad 9|1|725.6500
+20221023|Store3|Apple iPad 9|1|725.6500
+20221017|Store2|Apple iPad 9|1|934.9500
+20221027|Store2|Apple iPad 9|1|934.9500
+20221021|Store3|Apple iPad 9|1|934.9500
+20221020|Store4|Apple iPad 9|1|737.1500
+20221022|Store4|Apple iPad 9|1|737.1500
+20221031|Store4|Apple iPad 9|1|737.1500
+20221021|Store3|Apple iPad 9|1|737.1500
+20221023|Store3|Apple iPad 9|1|737.1500
+20221024|Store3|Apple iPad 9|3|2211.4500
+20221027|Store3|Apple iPad 9|1|737.1500
+20221002|Store1|Apple iPad 9|1|737.1500
+20221008|Store1|Apple iPad 9|2|1474.3000
+20221024|Store1|Apple iPad 9|1|737.1500
+20221026|Store1|Apple iPad 9|1|737.1500
+20221029|Store1|Apple iPad 9|1|737.1500
+20221008|Store7|Apple iPad 9|1|725.6500
+20221004|Store2|Apple iPad 9|1|725.6500
+20221005|Store2|Apple iPad 9|1|725.6500
+20221006|Store2|Apple iPad 9|1|725.6500
+20221010|Store2|Apple iPad 9|1|725.6500
+20221002|Store4|Apple iPad 9|1|725.6500
+20221019|Store1|Apple iPad 9|1|934.9500
+20221006|Store5|Apple MacBook Pro|1|1979.1499
+20221026|Store7|Apple MacBook Air|1|1574.3500
+20221027|Store7|Apple MacBook Air|1|1574.3500
+20221031|Store7|Apple MacBook Air|1|1574.3500
+20221001|Store2|Apple MacBook Air|2|3148.7000
+20221002|Store2|Apple MacBook Air|1|1574.3500
+20221008|Store2|Apple MacBook Air|1|1574.3500
+20221010|Store2|Apple MacBook Air|1|1574.3500
+20221011|Store2|Apple MacBook Air|1|1574.3500
+20221013|Store2|Apple MacBook Air|1|1574.3500
+20221014|Store2|Apple MacBook Air|1|1574.3500
+20221017|Store2|Apple MacBook Air|1|1574.3500
+20221018|Store2|Apple MacBook Air|3|4723.0500
+20221019|Store2|Apple MacBook Air|1|1574.3500
+20221022|Store2|Apple MacBook Air|1|1574.3500
+20221030|Store2|Apple MacBook Air|1|1574.3500
+20221004|Store5|Apple MacBook Air|1|1574.3500
+20221005|Store5|Apple MacBook Air|1|1574.3500
+20221012|Store5|Apple MacBook Air|1|1574.3500
+20221023|Store5|Apple MacBook Air|1|1574.3500
+20221030|Store5|Apple MacBook Air|1|1574.3500
+20221031|Store3|Apple MacBook Air|1|1574.3500
+20221020|Store6|Apple MacBook Air|-1|-1574.3500
+20221029|Store6|Apple MacBook Air|1|1574.3500
+20221031|Store6|Apple MacBook Air|1|1574.3500
+20221006|Store1|Apple MacBook Air|1|1574.3500
+20221025|Store1|Apple MacBook Air|1|1574.3500
+20221026|Store1|Apple MacBook Air|1|1574.3500
+20221027|Store1|Apple MacBook Air|1|1574.3500
+20221028|Store1|Apple MacBook Air|1|1574.3500
+20221029|Store1|Apple MacBook Air|1|1574.3500
+20221028|Store4|Apple MacBook Air|2|3148.7000
+20221031|Store4|Apple MacBook Air|1|1574.3500
+20221027|Store7|Apple MacBook Air|1|1574.3500
+20221008|Store5|Apple MacBook Air|1|1574.3500
+20221014|Store5|Apple MacBook Air|1|1574.3500
+20221017|Store5|Apple MacBook Air|1|1574.3500
+20221018|Store5|Apple MacBook Air|1|1574.3500
+20221021|Store5|Apple MacBook Air|1|1574.3500
+20221023|Store5|Apple MacBook Air|1|1574.3500
+20221015|Store4|Apple MacBook Air|2|3148.7000
+20221020|Store4|Apple MacBook Air|1|1574.3500
+20221007|Store1|Apple MacBook Air|1|1574.3500
+20221008|Store1|Apple MacBook Air|1|1574.3500
+20221012|Store1|Apple MacBook Air|1|1574.3500
+20221016|Store1|Apple MacBook Air|1|1574.3500
+20221018|Store1|Apple MacBook Air|2|3148.7000
+20221005|Store2|Apple MacBook Air|1|1574.3500
+20221008|Store2|Apple MacBook Air|2|3148.7000
+20221015|Store2|Apple MacBook Air|2|3148.7000
+20221022|Store5|Apple MacBook Air|1|1574.3500
+20221007|Store3|Apple MacBook Air|1|1574.3500
+20221009|Store3|Apple MacBook Air|1|1574.3500
+20221017|Store3|Apple MacBook Air|1|1574.3500
+20221023|Store3|Apple MacBook Air|1|1574.3500
+20221029|Store3|Apple MacBook Air|1|1574.3500
+20221003|Store7|Apple MacBook Air|2|3148.7000
+20221007|Store7|Apple MacBook Air|1|1574.3500
+20221009|Store7|Apple MacBook Air|1|1574.3500
+20221012|Store7|Apple MacBook Air|1|1574.3500
+20221014|Store7|Apple MacBook Air|1|1574.3500
+20221004|Store4|Apple MacBook Air|1|1574.3500
+20221007|Store4|Apple MacBook Air|1|1574.3500
+20221009|Store4|Apple MacBook Air|1|1574.3500
+20221019|Store4|Apple MacBook Air|1|1574.3500
+20221014|Store2|Apple MacBook Air|-1|-1263.0984
+20221002|Store2|SAMSUNG Galaxy Tab S|1|1124.1020
+20221004|Store5|SAMSUNG Galaxy Tab S|1|1124.1020
+20221017|Store5|SAMSUNG Galaxy Tab S|1|1124.1020
+20221003|Store4|SAMSUNG Galaxy Tab S|2|2248.2040
+20221019|Store3|SAMSUNG Galaxy Tab S|1|1124.1020
+20221004|Store1|SAMSUNG Galaxy Tab S|2|2248.2040
+20221006|Store1|SAMSUNG Galaxy Tab S|1|1124.1020
+20221004|Store5|Samsung Galaxy Tab S|1|1124.1020
+20221004|Store3|Samsung Galaxy Tab S|1|1124.1020
+20221030|Store6|Samsung Galaxy Tab S|1|1124.1020
+20221006|Store1|Samsung Galaxy Tab S|1|1124.1020
+20221002|Store7|Apple MacBook Pro|1|3059.0000
+20221013|Store7|Apple MacBook Pro|1|3059.0000
+20221023|Store7|Apple MacBook Pro|1|3059.0000
+20221027|Store7|Apple MacBook Pro|1|3059.0000
+20221016|Store3|Apple MacBook Pro|1|3059.0000
+20221019|Store3|Apple MacBook Pro|1|3059.0000
+20221024|Store3|Apple MacBook Pro|1|3059.0000
+20221008|Store2|Apple MacBook Pro|1|3059.0000
+20221024|Store2|Apple MacBook Pro|1|3059.0000
+20221028|Store2|Apple MacBook Pro|1|3059.0000
+20221023|Store5|Apple MacBook Pro|1|3059.0000
+20221021|Store6|Apple MacBook Pro|1|3059.0000
+20221031|Store6|Apple MacBook Pro|1|3059.0000
+20221004|Store1|Apple MacBook Pro|1|3059.0000
+20221016|Store1|Apple MacBook Pro|1|3059.0000
+20221021|Store1|Apple MacBook Pro|1|3059.0000
+20221024|Store1|Apple MacBook Pro|1|3059.0000
+20221025|Store1|Apple MacBook Pro|2|6118.0000
+20221017|Store4|Samsung Galaxy Tab S|1|1619.0965
+20221019|Store3|Samsung Galaxy Tab S|1|1619.0965
+20221022|Store3|Samsung Galaxy Tab S|1|1619.0965
+20221001|Store2|Samsung Galaxy Tab S|1|1934.1045
+20221022|Store2|Samsung Galaxy Tab S|1|1934.1045
+20221023|Store2|Samsung Galaxy Tab S|1|1934.1045
+20221017|Store4|Samsung Galaxy Tab S|1|1934.1045
+20221021|Store1|Samsung Galaxy Tab S|1|1934.1045
+20221024|Store1|Samsung Galaxy Tab S|1|1934.1045
+20221027|Store1|Samsung Galaxy Tab S|1|1934.1045
+20221022|Store2|Samsung Galaxy Tab S|1|1484.0980
+20221014|Store4|Samsung Galaxy Tab S|1|1484.0980
+20221021|Store4|Samsung Galaxy Tab S|1|1484.0980
+20221030|Store3|Samsung Galaxy Tab S|1|1259.1005
+20221026|Store7|Samsung Galaxy Tab S|2|3508.1900
+20221028|Store2|Samsung Galaxy Tab S|1|1754.0950
+20221009|Store5|Samsung Galaxy Tab S|1|1754.0950
+20221002|Store4|Samsung Galaxy Tab S|1|1754.0950
+20221021|Store3|Samsung Galaxy Tab S|1|1754.0950
+20221005|Store5|Samsung Galaxy Tab S|1|809.1055
+20221004|Store4|Samsung Galaxy Tab S|1|809.1055
+20221001|Store3|Samsung Galaxy Tab S|1|809.1055
+20221005|Store3|Samsung Galaxy Tab S|1|809.1055
+20221009|Store3|Samsung Galaxy Tab S|1|809.1055
+20221021|Store3|Samsung Galaxy Tab S|1|809.1055
+20221022|Store3|Samsung Galaxy Tab S|1|809.1055
+20221027|Store3|Samsung Galaxy Tab S|1|809.1055
+20221019|Store7|Samsung Galaxy Tab S|1|809.1055
+20221022|Store2|Samsung Galaxy Tab S|1|809.1055
+20221001|Store6|Samsung Galaxy Tab S|1|809.1055
+20221013|Store1|Samsung Galaxy Tab S|1|809.1055
+20221018|Store1|Samsung Galaxy Tab S|1|809.1055
+20221027|Store1|Samsung Galaxy Tab S|1|809.1055
+20221013|Store4|Samsung Galaxy Tab S|2|1618.2110
+20221019|Store4|Samsung Galaxy Tab S|1|809.1055
+20221001|Store3|Samsung Galaxy Tab S|1|809.1055
+20221003|Store5|Samsung Galaxy Tab S|1|809.1055
+20221019|Store5|Samsung Galaxy Tab S|1|809.1055
+20221006|Store7|Samsung Galaxy Tab S|1|584.0965
+20221012|Store7|Samsung Galaxy Tab S|1|584.0965
+20221002|Store2|Samsung Galaxy Tab S|1|584.0965
+20221024|Store5|Samsung Galaxy Tab S|1|584.0965
+20221030|Store5|Samsung Galaxy Tab S|1|584.0965
+20221005|Store4|Samsung Galaxy Tab S|1|584.0965
+20221008|Store4|Samsung Galaxy Tab S|1|584.0965
+20221013|Store3|Samsung Galaxy Tab S|1|584.0965
+20221022|Store3|Samsung Galaxy Tab S|1|584.0965
+20221010|Store1|Samsung Galaxy Tab S|1|584.0965
+20221014|Store1|Samsung Galaxy Tab S|-1|-584.0965
+20221030|Store1|Samsung Galaxy Tab S|1|584.0965
+20221001|Store3|Samsung Galaxy Tab S|1|674.0955
+20221020|Store3|Samsung Galaxy Tab S|1|674.0955
+20221014|Store6|Samsung Galaxy Tab S|1|674.0955
+20221007|Store1|Samsung Galaxy Tab S|1|674.0955
+20221008|Store2|Apple MacBook Pro|1|3868.6000
+20221021|Store4|Apple MacBook Pro|1|3868.6000
+20221029|Store4|Apple MacBook Pro|1|3868.6000
+20221012|Store3|Apple MacBook Pro|2|7737.2000
+20221021|Store3|Apple MacBook Pro|1|3868.6000
+20221018|Store6|Apple MacBook Pro|1|3868.6000
+20221020|Store6|Apple MacBook Pro|1|3868.6000
+20221013|Store1|Apple MacBook Pro|1|3868.6000
+20221030|Store7|Apple MacBook Pro|1|3868.6000
+20221021|Store2|Apple MacBook Pro|1|3868.6000
+20221002|Store5|Apple MacBook Pro|1|3868.6000
+20221007|Store5|Apple MacBook Pro|1|3868.6000
+20221003|Store4|Apple MacBook Pro|1|3868.6000
+20221021|Store2|Apple MacBook Pro|1|3868.6000
+20221023|Store1|Apple MacBook Pro|1|3868.6000
+20221015|Store3|Apple MacBook Pro|1|3868.6000
+20221003|Store6|Apple MacBook Pro|1|3868.6000
+20221021|Store2|Apple MacBook Pro|1|4183.7000
+20221007|Store3|Apple MacBook Pro|1|4183.7000
+20221022|Store6|Apple MacBook Pro|1|4183.7000
+20221022|Store2|Apple MacBook Pro|1|4183.7000
+20221007|Store4|Apple MacBook Pro|1|4183.7000
+20221021|Store4|Apple MacBook Pro|1|4183.7000
+20221008|Store3|Apple MacBook Pro|1|4183.7000
+20221014|Store6|Apple MacBook Pro|1|4183.7000
+20221002|Store1|Apple MacBook Pro|1|3059.0000
+20221011|Store5|Apple MacBook Air|1|1934.3000
+20221015|Store5|Apple MacBook Air|1|1934.3000
+20221016|Store5|Apple MacBook Air|2|3868.6000
+20221021|Store5|Apple MacBook Air|1|1934.3000
+20221028|Store5|Apple MacBook Air|1|1934.3000
+20221007|Store4|Apple MacBook Air|1|1934.3000
+20221011|Store4|Apple MacBook Air|1|1934.3000
+20221015|Store4|Apple MacBook Air|1|1934.3000
+20221018|Store4|Apple MacBook Air|1|1934.3000
+20221022|Store4|Apple MacBook Air|3|5802.9000
+20221024|Store4|Apple MacBook Air|1|1934.3000
+20221025|Store4|Apple MacBook Air|1|1934.3000
+20221027|Store4|Apple MacBook Air|1|1934.3000
+20221029|Store4|Apple MacBook Air|1|1934.3000
+20221004|Store3|Apple MacBook Air|-1|-1934.3000
+20221005|Store3|Apple MacBook Air|1|1934.3000
+20221006|Store3|Apple MacBook Air|-1|-1934.3000
+20221018|Store3|Apple MacBook Air|2|3868.6000
+20221021|Store3|Apple MacBook Air|1|1934.3000
+20221028|Store3|Apple MacBook Air|2|3868.6000
+20221030|Store3|Apple MacBook Air|1|1934.3000
+20221002|Store6|Apple MacBook Air|1|1934.3000
+20221003|Store6|Apple MacBook Air|1|1934.3000
+20221014|Store6|Apple MacBook Air|1|1934.3000
+20221015|Store6|Apple MacBook Air|1|1934.3000
+20221023|Store6|Apple MacBook Air|2|3868.6000
+20221028|Store6|Apple MacBook Air|1|1934.3000
+20221029|Store6|Apple MacBook Air|1|1934.3000
+20221031|Store6|Apple MacBook Air|1|1934.3000
+20221001|Store7|Apple MacBook Air|-1|-1934.3000
+20221002|Store7|Apple MacBook Air|1|1934.3000
+20221005|Store7|Apple MacBook Air|1|1934.3000
+20221017|Store7|Apple MacBook Air|2|3868.6000
+20221021|Store7|Apple MacBook Air|1|1934.3000
+20221024|Store7|Apple MacBook Air|1|1934.3000
+20221027|Store7|Apple MacBook Air|1|1934.3000
+20221004|Store2|Apple MacBook Air|2|3868.6000
+20221011|Store2|Apple MacBook Air|1|1934.3000
+20221012|Store2|Apple MacBook Air|1|1934.3000
+20221013|Store2|Apple MacBook Air|2|3868.6000
+20221014|Store2|Apple MacBook Air|1|1934.3000
+20221018|Store2|Apple MacBook Air|1|1934.3000
+20221021|Store2|Apple MacBook Air|1|1934.3000
+20221003|Store1|Apple MacBook Air|1|1934.3000
+20221008|Store1|Apple MacBook Air|1|1934.3000
+20221014|Store1|Apple MacBook Air|2|3868.6000
+20221016|Store1|Apple MacBook Air|1|1934.3000
+20221021|Store1|Apple MacBook Air|2|3868.6000
+20221022|Store1|Apple MacBook Air|1|1934.3000
+20221026|Store1|Apple MacBook Air|1|1934.3000
+20221031|Store1|Apple MacBook Air|1|1934.3000
+20221020|Store1|Apple MacBook Air|1|2428.8000
+20221026|Store7|Apple MacBook Air|1|1934.3000
+20221010|Store7|Apple MacBook Air|1|1934.3000
+20221012|Store7|Apple MacBook Air|1|1934.3000
+20221021|Store7|Apple MacBook Air|1|1934.3000
+20221003|Store2|Apple MacBook Air|1|1934.3000
+20221004|Store2|Apple MacBook Air|1|1934.3000
+20221008|Store2|Apple MacBook Air|1|1934.3000
+20221011|Store2|Apple MacBook Air|1|1934.3000
+20221012|Store2|Apple MacBook Air|1|1934.3000
+20221016|Store2|Apple MacBook Air|1|1934.3000
+20221027|Store2|Apple MacBook Air|1|1934.3000
+20221006|Store3|Apple MacBook Air|1|1934.3000
+20221007|Store3|Apple MacBook Air|1|1934.3000
+20221011|Store3|Apple MacBook Air|2|3868.6000
+20221012|Store3|Apple MacBook Air|1|1934.3000
+20221023|Store3|Apple MacBook Air|1|1934.3000
+20221024|Store3|Apple MacBook Air|2|3868.6000
+20221029|Store3|Apple MacBook Air|1|1934.3000
+20221031|Store3|Apple MacBook Air|1|1934.3000
+20221009|Store6|Apple MacBook Air|1|1934.3000
+20221014|Store6|Apple MacBook Air|1|1934.3000
+20221015|Store6|Apple MacBook Air|1|1934.3000
+20221023|Store6|Apple MacBook Air|2|3868.6000
+20221027|Store6|Apple MacBook Air|2|3868.6000
+20221002|Store1|Apple MacBook Air|3|5802.9000
+20221003|Store1|Apple MacBook Air|1|1934.3000
+20221004|Store1|Apple MacBook Air|1|1934.3000
+20221008|Store1|Apple MacBook Air|1|1934.3000
+20221009|Store1|Apple MacBook Air|1|1934.3000
+20221010|Store1|Apple MacBook Air|2|3868.6000
+20221015|Store1|Apple MacBook Air|1|1934.3000
+20221020|Store1|Apple MacBook Air|1|1934.3000
+20221024|Store1|Apple MacBook Air|2|3868.6000
+20221025|Store1|Apple MacBook Air|1|1934.3000
+20221027|Store1|Apple MacBook Air|1|1934.3000
+20221003|Store2|Apple MacBook Air|1|1934.3000
+20221004|Store2|Apple MacBook Air|1|1934.3000
+20221021|Store2|Apple MacBook Air|1|1934.3000
+20221023|Store2|Apple MacBook Air|1|1934.3000
+20221024|Store2|Apple MacBook Air|1|1934.3000
+20221019|Store5|Apple MacBook Air|1|1934.3000
+20221024|Store5|Apple MacBook Air|1|1934.3000
+20221002|Store4|Apple MacBook Air|1|1934.3000
+20221015|Store4|Apple MacBook Air|1|1934.3000
+20221026|Store4|Apple MacBook Air|1|1934.3000
+20221008|Store3|Apple MacBook Air|1|1934.3000
+20221014|Store3|Apple MacBook Air|1|1934.3000
+20221016|Store3|Apple MacBook Air|1|1934.3000
+20221025|Store3|Apple MacBook Air|1|1934.3000
+20221009|Store6|Apple MacBook Air|2|3868.6000
+20221004|Store1|Apple MacBook Air|2|3868.6000
+20221005|Store1|Apple MacBook Air|1|1934.3000
+20221021|Store1|Apple MacBook Air|1|1934.3000
+20221026|Store1|Apple MacBook Air|1|1934.3000
+20221006|Store5|Apple MacBook Air|1|1934.3000
+20221009|Store5|Apple MacBook Air|1|1934.3000
+20221014|Store5|Apple MacBook Air|1|1934.3000
+20221027|Store5|Apple MacBook Air|1|1934.3000
+20221018|Store4|Apple MacBook Air|1|1934.3000
+20221031|Store4|Apple MacBook Air|1|1934.3000
+20221005|Store3|Apple MacBook Air|1|2428.8000
+20221027|Store3|Apple MacBook Air|1|2428.8000
+20221003|Store2|Apple MacBook Air|2|4857.6000
+20221001|Store3|Apple MacBook Air|1|2428.8000
+20221028|Store4|Apple MacBook Air|1|2428.8000
+20221004|Store3|Apple MacBook Air|1|2428.8000
+20221005|Store6|Apple MacBook Air|1|2428.8000
+20221005|Store1|Apple MacBook Air|1|2428.8000
+20221029|Store1|Apple MacBook Air|1|2428.8000
+20221002|Store7|Apple MacBook Pro|1|2068.1288
+20221020|Store7|Apple MacBook Pro|1|2068.6516
+20221021|Store7|Apple MacBook Pro|1|2068.6683
+20221022|Store7|Apple MacBook Pro|1|2068.6766
+20221004|Store3|Apple MacBook Pro|1|2068.2180
+20221006|Store3|Apple MacBook Pro|1|2068.2655
+20221007|Store3|Apple MacBook Pro|1|2068.3619
+20221010|Store3|Apple MacBook Pro|1|2068.4162
+20221014|Store3|Apple MacBook Pro|1|2068.6215
+20221021|Store3|Apple MacBook Pro|1|2068.6683
+20221022|Store3|Apple MacBook Pro|1|2068.6766
+20221024|Store3|Apple MacBook Pro|1|2068.6766
+20221030|Store3|Apple MacBook Pro|1|2068.6836
+20221002|Store6|Apple MacBook Pro|1|2068.1288
+20221004|Store6|Apple MacBook Pro|1|2068.1288
+20221006|Store6|Apple MacBook Pro|1|2068.2655
+20221009|Store6|Apple MacBook Pro|1|2068.3619
+20221022|Store6|Apple MacBook Pro|3|6206.0297
+20221023|Store6|Apple MacBook Pro|1|2068.6766
+20221024|Store6|Apple MacBook Pro|1|2068.6766
+20221029|Store6|Apple MacBook Pro|1|2068.6836
+20221004|Store1|Apple MacBook Pro|1|2068.1288
+20221006|Store1|Apple MacBook Pro|1|2068.2655
+20221007|Store1|Apple MacBook Pro|1|2068.3619
+20221009|Store1|Apple MacBook Pro|1|2068.3619
+20221020|Store1|Apple MacBook Pro|1|2068.6516
+20221022|Store1|Apple MacBook Pro|2|4137.3532
+20221027|Store1|Apple MacBook Pro|1|2068.6813
+20221005|Store2|Apple MacBook Pro|1|2068.8500
+20221008|Store2|Apple MacBook Pro|1|2068.8500
+20221017|Store4|Apple MacBook Pro|1|2068.8500
+20221019|Store4|Apple MacBook Pro|1|2068.8500
+20221005|Store3|Apple MacBook Pro|1|2068.8500
+20221005|Store1|Apple MacBook Pro|1|2068.8500
+20221005|Store2|Apple MacBook Pro|1|2068.2655
+20221013|Store2|Apple MacBook Pro|1|2068.6215
+20221014|Store2|Apple MacBook Pro|1|2068.6215
+20221021|Store2|Apple MacBook Pro|2|4137.3532
+20221022|Store2|Apple MacBook Pro|1|2068.6766
+20221029|Store2|Apple MacBook Pro|1|2068.6836
+20221023|Store5|Apple MacBook Pro|1|2068.6766
+20221015|Store4|Apple MacBook Pro|1|2068.6215
+20221016|Store4|Apple MacBook Pro|1|2068.6215
+20221022|Store4|Apple MacBook Pro|1|2068.6766
+20221023|Store4|Apple MacBook Pro|1|2068.6766
+20221024|Store4|Apple MacBook Pro|2|4137.3532
+20221026|Store4|Apple MacBook Pro|1|2068.6813
+20221028|Store7|Apple MacBook Pro|1|2383.9500
+20221029|Store7|Apple MacBook Pro|-1|-2383.9500
+20221026|Store2|Apple MacBook Pro|1|2383.9500
+20221029|Store2|Apple MacBook Pro|1|2383.9500
+20221006|Store5|Apple MacBook Pro|1|2383.9500
+20221016|Store5|Apple MacBook Pro|1|2383.9500
+20221017|Store5|Apple MacBook Pro|1|2383.9500
+20221023|Store5|Apple MacBook Pro|1|2383.9500
+20221004|Store4|Apple MacBook Pro|1|2383.9500
+20221005|Store4|Apple MacBook Pro|1|2383.9500
+20221022|Store4|Apple MacBook Pro|1|2383.9500
+20221001|Store3|Apple MacBook Pro|1|2383.9500
+20221027|Store3|Apple MacBook Pro|1|2383.9500
+20221029|Store3|Apple MacBook Pro|1|2383.9500
+20221023|Store6|Apple MacBook Pro|2|4767.9000
+20221024|Store6|Apple MacBook Pro|1|2383.9500
+20221014|Store1|Apple MacBook Pro|1|2383.9500
+20221020|Store1|Apple MacBook Pro|1|2383.9500
+20221021|Store1|Apple MacBook Pro|3|7151.8500
+20221029|Store1|Apple MacBook Pro|1|2383.9500
+20221007|Store2|Apple MacBook Pro|1|2383.9500
+20221015|Store2|Apple MacBook Pro|1|2383.9500
+20221018|Store3|Apple MacBook Pro|1|2383.9500
+20221020|Store1|Apple MacBook Pro|1|2383.9500
+20221021|Store7|Apple MacBook Pro|2|4767.9000
+20221025|Store7|Apple MacBook Pro|1|2383.9500
+20221009|Store7|Samsung Galaxy Tab S|1|584.0965
+20221022|Store7|Samsung Galaxy Tab S|1|584.0965
+20221024|Store7|Samsung Galaxy Tab S|1|584.0965
+20221029|Store7|Samsung Galaxy Tab S|1|584.0965
+20221009|Store2|Samsung Galaxy Tab S|1|584.0965
+20221010|Store4|Samsung Galaxy Tab S|2|1168.1930
+20221012|Store4|Samsung Galaxy Tab S|1|584.0965
+20221021|Store4|Samsung Galaxy Tab S|1|584.0965
+20221030|Store4|Samsung Galaxy Tab S|1|584.0965
+20221014|Store3|Samsung Galaxy Tab S|1|584.0965
+20221023|Store3|Samsung Galaxy Tab S|-1|-584.0965
+20221023|Store1|Samsung Galaxy Tab S|1|584.0965
+20221026|Store1|Samsung Galaxy Tab S|1|584.0965
+20221029|Store4|Samsung Galaxy Tab S|1|674.0955
+20221024|Store6|Samsung Galaxy Tab S|1|674.0955
+20221016|Store1|Samsung Galaxy Tab S|1|809.1055
+20221028|Store1|Samsung Galaxy Tab S|1|809.1055
+20221016|Store2|Samsung Galaxy Tab S|1|809.1055
+20221004|Store4|Samsung Galaxy Tab S|1|809.1055
+20221024|Store3|Samsung Galaxy Tab S|1|809.1055
+20221013|Store2|Samsung Galaxy Tab S|1|989.1035
+20221005|Store2|Samsung Galaxy Tab S|1|1619.0965
+20221018|Store6|Samsung Galaxy Tab S|1|1619.0965
