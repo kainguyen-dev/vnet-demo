@@ -81,15 +81,12 @@ public class StreamFactory implements DisposableBean {
                     inputStream
                         .map((k, v) -> {
                             Map<String, Integer> map = buildMapFromJsonNode(v, streamConfig.getSumField());
-
                             String jsonString = "";
                             try {
                                 jsonString = objectMapper.writeValueAsString(map);
-                                System.out.println(jsonString);
                             } catch (JsonProcessingException e) {
                                 log.error(e.getMessage(), e);
                             }
-
                             return new KeyValue<>(v.get(streamConfig.getGroupKey()).asText(), jsonString);
                         })
                         .groupByKey(Grouped.with(Serdes.String(), Serdes.String()))

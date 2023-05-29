@@ -17,6 +17,7 @@ import org.apache.kafka.streams.StreamsConfig;
 import org.apache.kafka.streams.kstream.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.io.IOException;
@@ -25,7 +26,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Random;
 
-@SpringBootApplication
+@SpringBootApplication(exclude = KafkaAutoConfiguration.class)
 @Slf4j
 public class VnetDemoApplication {
 
