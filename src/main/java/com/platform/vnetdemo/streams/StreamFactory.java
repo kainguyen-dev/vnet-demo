@@ -38,9 +38,23 @@ public class StreamFactory implements DisposableBean {
         this.kafkaAdmin = kafkaAdmin;
         this.streamsList = new ArrayList<>();
 
+        clearTopic();
         buildTopic();
         buildStreams();
     }
+
+    public void clearTopic() {
+        List<String> topicList = new ArrayList<>();
+        platformProperties.getStream()
+            .forEach((key, value) -> topicList.add(value.getTopic()));
+        try {
+            kafkaAdmin.deleteTopics(topicList).all().get();
+            log.info("Remove topics [{}] completed ! ", topicList);
+        } catch (ExecutionException | InterruptedException e) {
+            log.error(e.getMessage(), e.getCause());
+        }
+    }
+
 
     public void buildTopic() {
         List<NewTopic> topicList = new ArrayList<>();

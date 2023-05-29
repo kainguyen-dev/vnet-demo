@@ -1,25 +1,34 @@
 package com.platform.vnetdemo.consumer;
 
+import lombok.RequiredArgsConstructor;
+import lombok.SneakyThrows;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.json.JSONObject;
 import org.springframework.kafka.listener.MessageListener;
+import org.springframework.web.socket.TextMessage;
+import org.springframework.web.socket.WebSocketSession;
 
+import java.util.Objects;
+
+@RequiredArgsConstructor
+@Slf4j
 public class SaleDataConsumer implements MessageListener<String, String> {
 
+    private final WebSocketSession session;
+
+    @SneakyThrows
     @Override
     public void onMessage(ConsumerRecord<String, String> record) {
+
         String key = record.key();
         String value = record.value();
-        int partition = record.partition();
-        long offset = record.offset();
 
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("entity", key);
+        jsonObject.put("data", value);
+        jsonObject.put("group", Objects.requireNonNull(session.getUri()).getPath());
 
-        System.out.println();
-        System.out.println("TOPIC " + record.topic());
-        System.out.println("Received message:");
-        System.out.println("Key: " + key);
-        System.out.println("Value: " + value);
-        System.out.println("Partition: " + partition);
-        System.out.println("Offset: " + offset);
-        System.out.println();
+        if (session.isOpen()) session.sendMessage(new TextMessage(jsonObject.toString()));
     }
 }
