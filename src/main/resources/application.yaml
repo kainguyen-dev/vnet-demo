@@ -21,3 +21,12 @@ platform:
     kafka:
         topic: SALE_REPORT
         # output: SALE_OUTPUT
+    stream:
+        aggragate-by-store:
+            topic: SALE_REPORT_BY_STORE
+            group-key: StoreName
+            sum-field: SalesUnits, SalesRevenue
+        aggragate-by-product:
+            topic: SALE_REPORT_BY_PRODUCT
+            group-key: ProductName
+            sum-field: SalesUnits, SalesRevenue

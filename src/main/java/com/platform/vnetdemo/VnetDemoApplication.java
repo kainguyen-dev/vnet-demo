@@ -20,10 +20,6 @@ import java.time.Duration;
 import java.util.Properties;
 import java.util.Random;
 
-import org.apache.kafka.common.serialization.Serdes;
-import org.apache.kafka.streams.kstream.Windowed;
-import org.apache.kafka.streams.kstream.WindowedSerdes;
-
 @SpringBootApplication
 @Slf4j
 public class VnetDemoApplication {
@@ -31,7 +27,7 @@ public class VnetDemoApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(VnetDemoApplication.class, args);
         PlatformProperties properties = context.getBean(PlatformProperties.class);
-        log.info(properties.toString());
+        log.info("Properties " + properties.toString());
 
 
         final Serde<String> stringSerde = Serdes.String();
@@ -89,7 +85,7 @@ public class VnetDemoApplication {
             );
 
         KafkaStreams streams = new KafkaStreams(builder.build(), props);
-        streams.start();
+        // streams.start();
         System.out.println("Stream start !");
 
     }

@@ -33,7 +33,7 @@ public class SaleDataProducer {
         this.properties = properties;
         this.fileIndex = new AtomicInteger();
 
-        this.execute();
+        // this.execute();
     }
 
     public List<String> readData() {
