@@ -80,4 +80,6 @@ When browser open, a new web socket connection is establish and backend create a
 
 ## 3. In actions
 
+Below is the gif file record applicaion's data is updated without refresh the page
+
 ![Alt Text](demo.gif)
