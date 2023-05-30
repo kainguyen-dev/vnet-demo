@@ -4,10 +4,12 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.platform.vnetdemo.properties.CloudKafkaProperties;
 import com.platform.vnetdemo.properties.PlatformProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.admin.Admin;
 import org.apache.kafka.clients.admin.NewTopic;
+import org.apache.kafka.common.config.SaslConfigs;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.connect.json.JsonDeserializer;
@@ -30,16 +32,17 @@ public class StreamFactory implements DisposableBean {
 
     private final PlatformProperties platformProperties;
     private final Admin kafkaAdmin;
-    List<KafkaStreams> streamsList;
+    private final List<KafkaStreams> streamsList;
+    private final CloudKafkaProperties cloudKafkaProperties;
+
 
     public StreamFactory(PlatformProperties platformProperties,
-                         Admin kafkaAdmin) {
+                         Admin kafkaAdmin, CloudKafkaProperties cloudKafkaProperties) {
         this.platformProperties = platformProperties;
         this.kafkaAdmin = kafkaAdmin;
+        this.cloudKafkaProperties = cloudKafkaProperties;
         this.streamsList = new ArrayList<>();
 
-        clearTopic();
-        buildTopic();
         buildStreams();
     }
 
@@ -78,7 +81,10 @@ public class StreamFactory implements DisposableBean {
 
                     Properties props = new Properties();
                     props.put(StreamsConfig.APPLICATION_ID_CONFIG, "STREAM_JSON_POC_" + new Random().nextInt());
-                    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+                    props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, cloudKafkaProperties.getProperties().getBootstrap().getServers());
+                    props.put(StreamsConfig.SECURITY_PROTOCOL_CONFIG, cloudKafkaProperties.getProperties().getSecurity().getProtocol());
+                    props.put(SaslConfigs.SASL_MECHANISM, cloudKafkaProperties.getProperties().getSasl().getMechanism());
+                    props.put(SaslConfigs.SASL_JAAS_CONFIG, cloudKafkaProperties.getProperties().getSasl().getJaas().getConfig());
                     props.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, jsonSerde.getClass());
                     props.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, jsonSerde.getClass());
                     props.put(StreamsConfig.COMMIT_INTERVAL_MS_CONFIG, 5000L);
