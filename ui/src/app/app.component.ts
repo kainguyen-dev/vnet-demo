@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
             this.counterStore--;
         }, 1000);
 
-        this.productWebsocketService.connect('ws://localhost:8080/aggragate-by-product');
+        this.productWebsocketService.connect('ws://localhost:9090/aggragate-by-product');
 
         this.productWebsocketService.getMessages().subscribe((message) => {
 
@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
         });
 
 
-        this.storeWebsocketService.connect('ws://localhost:8080/aggragate-by-store');
+        this.storeWebsocketService.connect('ws://localhost:9090/aggragate-by-store');
 
         this.storeWebsocketService.getMessages().subscribe((message) => {
 
