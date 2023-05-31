@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
 
 
             if (message["group"] === "/aggragate-by-product") {
-                this.counterProduct = 15;
+                this.counterProduct = this.COUNTER_MAX;
 
                 this.data["product"][message["entity"]] = message["data"];
 
@@ -72,7 +72,7 @@ export class AppComponent implements OnInit {
 
             if (message["group"] === "/aggragate-by-store") {
 
-                this.counterStore = 15;
+                this.counterStore = this.COUNTER_MAX;
 
                 this.data["store"][message["entity"]] = message["data"];
 

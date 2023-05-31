@@ -28,7 +28,7 @@ buildSrc/build
 spring-test/test-output/
 
 # Maven artifacts
-pom.xml
+
 /target/
 
 # Eclipse artifacts, including WTP generated manifests
@@ -56,3 +56,4 @@ cached-antora-playbook.yml
 node_modules
 .angular
 target
+node
