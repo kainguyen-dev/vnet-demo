@@ -2,17 +2,20 @@
 
 ## 1. How to install this app
 
+Requirement:
+- Java 11
+- Angular CLI installed
+- Node JS
+
 
 Open your terminal and run these commands:
-
 ```shell
-
 
 # STEP 1: clone this repo
 git clone https://github.com/kainguyen-dev/vnet-demo.git
 cd vnet-demo
 
-# STEP 2: Build backend
+# STEP 2: Build project ( both FE and BE will be built)
 
 # if your computer is WINDOW:
     mvnw.cmd clean package
@@ -20,20 +23,12 @@ cd vnet-demo
     mvnw clean package
 
 # STEP 3: Run backend
-java -jar target/vnet-demo-0.0.1-SNAPSHOT.jar
-
+java -jar backend\target\backend-0.0.1-SNAPSHOT.jar
 
 # STEP 4: Build Front end 
 # Open a new terminal and run 
-
-cd ui
-npm i
-
-# STEP 5 Install angular CLI (if you already install please skip this)
-npm install -g @angular/cli
-
-# STEP 6 Run front end
-ng serve
+cd frontend
+ng serve 
 
 ```
 
@@ -55,10 +50,10 @@ In the future, he can change or add more requirements such as: only aggregate by
 Therefore, you need to build the system to easily scale or modify when there is a new request from this difficult boss.
 ```
 
-The main idea is to build a **KafkaStream** aggreate these value (product, store) that sastisfied Tom's boss requirement at **runtime**, there is no need to add new code when new requirement coming:
+The main idea is to build a **KafkaStream** to aggregate these values (product, store) that satisfy Tom's boss requirement at runtime; there is no need 
+to add new code when new requirements come in, we just have to add new stream in configuration file and restart applications.
 
-To do that we build an generic template for streams:
-
+In order to do that, we build a generic template for streams:
 ```yaml
     stream:
         aggragate-by-store:
@@ -74,12 +69,12 @@ To do that we build an generic template for streams:
 
 ```
 
-And build them when the application start.
+And build each stream when the application starts.
 
-When browser open, a new web socket connection is establish and backend create a kafka consumer to listen for aggreate value of streaming topic and show to the users.
+When the browser opens, a new web socket connection is established, and the backend creates a Kafka consumer to listen for aggreated values of the streaming topic and show them to the users.
 
 ## 3. In actions
 
-Below is the gif file record applicaion's data is updated without refresh the page
+Below is the gif file record application's data is updated without refresh the page
 
 ![Alt Text](demo.gif)
