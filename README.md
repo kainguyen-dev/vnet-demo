@@ -7,6 +7,7 @@ Requirement:
 - Angular CLI installed
 - Node JS
 
+Event platform is Cloud Confluent so there is no need to installed.
 
 Open your terminal and run these commands:
 ```shell
@@ -25,10 +26,9 @@ cd vnet-demo
 # STEP 3: Run backend
 java -jar backend\target\backend-0.0.1-SNAPSHOT.jar
 
-# STEP 4: Build Front end 
-# Open a new terminal and run 
+# STEP 4: Open a new terminal and run frontend 
 cd frontend
-ng serve 
+ng serve --open
 
 ```
 
@@ -49,6 +49,7 @@ In the future, he can change or add more requirements such as: only aggregate by
 
 Therefore, you need to build the system to easily scale or modify when there is a new request from this difficult boss.
 ```
+
 
 The main idea is to build a **KafkaStream** to aggregate these values (product, store) that satisfy Tom's boss requirement at runtime; there is no need 
 to add new code when new requirements come in, we just have to add new stream in configuration file and restart applications.
@@ -78,3 +79,7 @@ When the browser opens, a new web socket connection is established, and the back
 Below is the gif file record application's data is updated without refresh the page
 
 ![Alt Text](demo.gif)
+
+## 4. Improvement
+
+Stream configuration can be store in a database and application should rebuild Kafka stream at runtime by RESTful API, application don't need to stop and start.
